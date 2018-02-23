@@ -1,4 +1,9 @@
 <div class="container-fluid main-holder">
+
+    <div class="container">
+        {squarespace}
+    </div>
+
     <div class="section-heading first">
         <h4>High intensity hard chews</h4>
     </div>
