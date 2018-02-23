@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad3680-cb3b-4d2b-a8db-e04b7c51c695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site.region" afterPath="$PROJECT_DIR$/site.region" />
+      <change beforePath="$PROJECT_DIR$/styles/products.less" afterPath="$PROJECT_DIR$/styles/products.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="site.region" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.region" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site.region">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/products.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/collections/prod.conf" />
         <option value="$PROJECT_DIR$/collections/prod.item" />
         <option value="$PROJECT_DIR$/site.region" />
+        <option value="$PROJECT_DIR$/styles/products.less" />
       </list>
     </option>
   </component>
@@ -130,6 +140,11 @@
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="collections" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519395953825</updated>
       <workItem from="1519395955204" duration="1777000" />
-      <workItem from="1519397753638" duration="77000" />
+      <workItem from="1519397753638" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1854000" />
+    <option name="totallyTimeSpent" value="2155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
@@ -287,6 +302,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/products.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
           <folding />
         </state>
       </provider>
