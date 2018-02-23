@@ -59,7 +59,7 @@
                     <h3>{title}</h3>
                     <h4>{productSubtitle}</h4>
                     <div class="desc">
-                        {description}
+                        {body}
                     </div>
                     <div class="secondary-product-image">
                         {secondaryProductImage}
