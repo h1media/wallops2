@@ -52,7 +52,7 @@
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
-                    {customContent.mainProductImage}
+                    <img src="{customContent.mainProductImage.assetUrl}" />
                     <span class="shadow"></span>
                 </div>
                 <div class="col-lg-6 product-desc">
@@ -62,7 +62,7 @@
                         {body}
                     </div>
                     <div class="secondary-product-image">
-                        {customContent.secondaryProductImage}
+                        <img src="{customContent.secondaryProductImage.assetUrl}" />
                     </div>
                 </div>
             </div>
