@@ -1,0 +1,94 @@
+<div class="container-fluid main-holder">
+    <div class="section-heading first">
+        <h4>High intensity hard chews</h4>
+    </div>
+    <div class="container products-holder">
+        <div class="row product">
+            <div class="col-lg-6 product-image">
+                <img src="http://localhost:9000/assets/cinnamon_resized.png" />
+                <span class="shadow"></span>
+            </div>
+            <div class="col-lg-6 product-desc">
+                <h3>Wildfire</h3>
+                <h4>Lorem ipsum doler amen</h4>
+                <div class="desc">
+                    <strong>WILDFIRE INGREDIENTS</strong>: corn syrup, granulated sugar, water, powdered sugar (pure cane sugar, tapioca
+                    starch), cocoa butter, glycerin, gelatin, cinnamon flavor (ethyl alcohol, water, natural and artificial flavor), ethyl
+                    alcohol, capsicum flavor (water, ethyl alcohol, propylene glycol, natural flavor), soy lecithin, natural ginge flavor,
+                    vitamin E oil, cannabis extract, lemon oil, coloring (red 5). <strong>CONTAINS</strong>: soy
+                </div>
+                <div class="secondary-product-image">
+                    <img src="http://localhost:9000/assets/Wallops_Single_Wide_WildFire.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="row product">
+            <div class="col-lg-6 product-image">
+                <img src="http://localhost:9000/assets/lemon_resized.png" />
+                <span class="shadow"></span>
+            </div>
+            <div class="col-lg-6 product-desc">
+                <h3>Lemon Bomb</h3>
+                <h4>Lorem ipsum doler amen</h4>
+                <div class="desc">
+                    <strong>LEMON BOMB INGREDIENTS</strong>: corn syrup, granulated sugar, water, powdered sugar (pure cane sugar, corn
+                    starch), cocoa butter, citric acid, glycerin, gelatin, soy lecithin, ethyl alcohol, vitamin E oil, natural lemon flavor
+                    (canola oil, natural flavor, alpha-tocopherol (to protect flavor), natural lemon flavor (corn maltodextrin, modified
+                    corn starch, sugar, natural flavor), cannabis extract, lemon oil, coloring (yellow 5). <strong>CONTAINS</strong>: soy
+                </div>
+                <div class="secondary-product-image">
+                    <img src="http://localhost:9000/assets/Wallops_Single_Wide_LemonDrop.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="row product">
+            <div class="col-lg-6 product-image">
+                {mainProductImage}
+                <span class="shadow"></span>
+            </div>
+            <div class="col-lg-6 product-desc">
+                <h3>{title}</h3>
+                <h4>{productSubtitle}</h4>
+                <div class="desc">
+                    {main-body}
+                </div>
+                <div class="secondary-product-image">
+                    {secondaryProductImage}
+                </div>
+            </div>
+        </div>
+
+        <squarespace:query collection="wallops-products" limit="100">
+
+            {.repeated section items}
+            <div class="row product">
+                <div class="col-lg-6 product-image">
+                    {mainProductImage}
+                    <span class="shadow"></span>
+                </div>
+                <div class="col-lg-6 product-desc">
+                    <h3>{title}</h3>
+                    <h4>{productSubtitle}</h4>
+                    <div class="desc">
+                        {description}
+                    </div>
+                    <div class="secondary-product-image">
+                        {secondaryProductImage}
+                    </div>
+                </div>
+            </div>
+            {.end}
+
+        </squarespace:query>
+
+
+    </div>
+    <div class="section-heading">
+        <h4>High intensity hard candy</h4>
+    </div>
+    <div class="container products-holder">
+        <span class="coming-soon">
+            Coming soon
+        </span>
+    </div>
+</div>

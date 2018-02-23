@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+
+    <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
+
+    <squarespace:script src="jquery-3.3.1.min.js" combo="true"/>
+    {squarespace-headers}
+</head>
+
+<body>
+
+<header class="container-fluid">
+    <div class="container header-holder">
+        <img class="top-bar" src="http://localhost:9000/assets/top.jpg" />
+        <div class="menu-holder">
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="responsive-menu">
+                <!--<nav>
+                    <ul>
+                        <li><a href="#">Find us</a></li>
+                        <li class="menu-item-has-children"><a href="#">Products</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Products</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>-->
+                <squarespace:navigation navigationId="mainNav" template="navigation" />
+            </div>
+        </div>
+        <h1 class="site-title">
+            High intensity cannabis - infused chews
+        </h1>
+        <div class="logo-area">
+            <img src="http://localhost:9000/assets/logo-part.png" />
+            <img class="star" src="http://localhost:9000/assets/starred.jpg" />
+        </div>
+        <h2 class="site-sub-title">
+            Be bold. Act fast. Get walloped.
+        </h2>
+    </div>
+</header>

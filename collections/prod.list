@@ -1,0 +1,38 @@
+{.repeated section items}
+<div class="row product">
+    <div class="col-lg-6 product-image">
+        {mainProductImage}
+        <span class="shadow"></span>
+    </div>
+    <div class="col-lg-6 product-desc">
+        <h3>{title}</h3>
+        <h4>{productSubtitle}</h4>
+        <div class="desc">
+            {description}
+        </div>
+        <div class="secondary-product-image">
+            {secondaryProductImage}
+        </div>
+    </div>
+</div>
+{.end}
+
+{.section collection}
+
+  <squarespace:category collection="{urlId}">
+    {.if categories}
+      <div class="category-wrapper">
+        <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
+      </div>
+    {.end}
+    {.repeated section items}
+      <article>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </article>
+    {.or}
+      <p>There are no items here.</p>
+    {.end}
+  </squarespace:category>
+
+{.end}

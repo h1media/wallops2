@@ -1,0 +1,49 @@
+header {
+  background-color: black;
+  color: white;
+  margin-bottom: 70px;
+  text-align:center;
+
+  .header-holder {
+    position:relative;
+    @media screen and (max-width: 992px) {
+      position:initial;
+    }
+
+    .top-bar {
+      margin-left:-11px;
+    }
+
+    .logo-area {
+      text-align: center;
+      position: relative;
+
+      .star {
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        display: inline-block;
+        width: 135px;
+        height: 135px;
+        .md {
+          display: none;
+        }
+      }
+    }
+
+    h1, h2 {
+      .giantFont;
+      text-align: center;
+      letter-spacing: 4px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+    }
+
+    h2 {
+      font-size: 2.7rem;
+      letter-spacing: 1px;
+    }
+  }
+}

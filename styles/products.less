@@ -1,0 +1,133 @@
+.section-heading {
+  margin-bottom: 30px;
+
+  h4 {
+    .giantFont;
+    font-size: 4rem;
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 4px 50px;
+  }
+}
+
+.section-heading.first {
+  margin-bottom: 100px;
+}
+
+.products-holder {
+  margin-bottom: 90px;
+
+  .product {
+
+    .product-image {
+      text-align: center;
+
+      img {
+        .rotate(-10deg);
+        z-index: 1;
+      }
+
+      .shadow {
+        display: inline-block;
+        margin-top: 40px;
+        width: 330px;
+        height: 30px;
+        background: #aaabab;
+        z-index: -1;
+        .border-radius(50%);
+        .blur(10px);
+      }
+    }
+
+    .product-desc {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+
+      h3 {
+        .giantFont;
+        font-size: 3.7rem;
+        margin-bottom: 0;
+      }
+
+      h4 {
+        .giantFont;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+        margin-top: -15px;
+      }
+
+      .desc {
+        font-family: 'Helvetica LT Std';
+        font-size: .8rem;
+        line-height: 0.8rem;
+      }
+
+      .secondary-product-image {
+        margin-left: -50px;
+
+        &:after {
+          content: '';
+          display: inline-block;
+          width: 50%;
+          height: 2px;
+          background: #ccc;
+        }
+      }
+    }
+
+    &:hover {
+      .product-image {
+
+        img {
+          .rotate(0deg);
+          transition-duration:.3s;
+        }
+      }
+    }
+  }
+
+  .product:nth-of-type(even) {
+    flex-direction:row-reverse;
+
+    .product-image {
+
+      img {
+        .rotate(10deg);
+      }
+    }
+
+    .secondary-product-image {
+      text-align: right;
+      margin-right: -50px;
+      
+      &:after {
+        display: none;
+      }
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 50%;
+        height: 2px;
+        background: #ccc;
+      }
+    }
+
+    &:hover {
+      .product-image {
+
+        img {
+          .rotate(0deg);
+          transition-duration:.3s;
+        }
+      }
+    }
+  }
+  .coming-soon {
+    .giantFont;
+    font-size: 3.7rem;
+  }
+}
