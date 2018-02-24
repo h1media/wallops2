@@ -55,7 +55,12 @@
 
         <squarespace:query collection="wallops-products" category="{categories}" limit="100">
 
-        <h4>test {categories}</h4>
+        <h4>
+
+{.repeated section categories}
+               {name}
+                {.end}
+        </h4>
 
             {.repeated section items}
             <div class="row product">
