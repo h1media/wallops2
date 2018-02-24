@@ -47,41 +47,8 @@
             </div>
         </div>
 
-        <squarespace:query collection="wallops-products" limit="100">
+        <squarespace:query collection="wallops-products" category="{categoryFilter} limit="100">
 
-
-
-{.section collection}
-  <squarespace:category collection="{urlId}">
-    {.if categories}
-    <div class="section-heading first">
-        <h4>{.repeated section categories}{name}{.alternates with}, {.end}</h4>
-    </div>
-            {.repeated section items}
-            <div class="row product">
-                <div class="col-lg-6 product-image">
-                    <img src="{customContent.mainProductImage.assetUrl}" />
-                    <span class="shadow"></span>
-                </div>
-                <div class="col-lg-6 product-desc">
-                    <h3>{title}</h3>
-                    <h4>{customContent.productSubtitle}</h4>
-                    <div class="desc">
-                        {body}
-                    </div>
-                    <div class="secondary-product-image">
-                        <img src="{customContent.secondaryProductImage.assetUrl}" />
-                    </div>
-                </div>
-            </div>
-            {.end}
-    {.end}
-  </squarespace:category>
-{.end}
-
-{.repeated section categories}
-<h4>{name}</h4>
-{.end}
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
@@ -102,7 +69,6 @@
             {.end}
 
         </squarespace:query>
-
 
     </div>
 
@@ -144,7 +110,7 @@
             {.end}
 
 
-          
+
         {.end}
 
 
