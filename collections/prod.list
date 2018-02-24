@@ -2,10 +2,10 @@
   <squarespace:category collection="{urlId}">
     {.if categories}
     <div class="section-heading first">
-        <h4>{.repeated section categories}{name}{.end}</h4>
+        <h4>{.repeated section category}{name}{.end}</h4>
     </div>
 
-            {.repeated section categories items}
+            {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
