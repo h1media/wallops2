@@ -51,7 +51,7 @@
 
 
 
-      {.repeated collection}
+      {.repeated section collections}
 
         <squarespace:query collection="wallops-products" category="{categories}" limit="100">
 
