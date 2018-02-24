@@ -1,9 +1,5 @@
 <div class="container-fluid main-holder">
 
-    <div class="container">
-        {squarespace.main-content}
-    </div>
-
     <div class="section-heading first">
         <h4>High intensity hard chews</h4>
     </div>
@@ -86,9 +82,9 @@
 {.end}
 
 
+test aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
- {.section collection}
      {.repeated section collections}
          {.repeated section categories}
              <div class="section-heading">
@@ -114,7 +110,7 @@
             </div>
             {.end}
      {.end}
- {.end}
+
 
 
 
