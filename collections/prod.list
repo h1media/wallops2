@@ -9,7 +9,11 @@
             {.end}
           </squarespace:category>
 
-           {.repeated section items}
+
+          
+        {.end}
+
+                   {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
@@ -27,7 +31,3 @@
                 </div>
             </div>
             {.end}
-
-
-          
-        {.end}
