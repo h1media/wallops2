@@ -4,8 +4,8 @@
   }
   nav {
     position: absolute;
-    right: 0;
-    top: 30px;
+    right: 15px;
+    top: 42px;
         @media screen and (max-width: 992px) {
           top:0;
         }
@@ -15,7 +15,7 @@
       list-style-type: none;
       li {
         position: relative;
-        padding: 0 13px;
+        padding: 0 19px;
         display: inline-block;
         @media screen and (max-width: 992px) {
           padding: 0 10px;
@@ -23,17 +23,19 @@
         a {
           width:100%;
           display:inline-block;
+          font-family: 'Helvetica LT Std';
+          font-size: 1rem;
+          line-height: 1.1rem;
         }
         .open-menu-link {
           display: none;
         }
         ul.sub-menu {
-          background: black;
+          background: white;
           visibility: hidden;
-          float: left;
-          min-width: 250px;
+          float: right;
           position: absolute;
-          left: 0;
+          right: 0;
           padding: 0;
           @media screen and (max-width: 992px) {
             position: relative!important;
@@ -41,9 +43,11 @@
           }
           li {
             padding: 0 8px;
-            width: 100%;
-            text-align: left;
-            border-bottom: 1px solid white;
+            min-width:200px;
+            padding: 0 19px;
+            text-align: right;
+            background:black;
+            border-bottom: 1px solid black;
             &:last-of-type {
               border-bottom: none;
             }
