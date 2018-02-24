@@ -64,6 +64,7 @@
                     <span class="shadow"></span>
                 </div>
                 <div class="col-lg-6 product-desc">
+                <h4>test {categories.name}</h4>
                     <h3>{title}</h3>
                     <h4>{customContent.productSubtitle}</h4>
                     <div class="desc">
