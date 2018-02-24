@@ -51,9 +51,11 @@
 
 
 
-        {.repeated section collection}
+      
 
-        <squarespace:query collection="wallops-products" category="categoryFilter" limit="100">
+        <squarespace:query collection="wallops-products" category="{categories.name}" limit="100">
+
+        <h4>{categories.name}</h4>
 
             {.repeated section items}
             <div class="row product">
@@ -76,7 +78,7 @@
 
         </squarespace:query>
 
-        {.end}
+      
 
     </div>
 
