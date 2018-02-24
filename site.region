@@ -24,6 +24,12 @@
                     </div>
                 </div>
             </div>
+            {.or}
+                <div class="container products-holder">
+                    <span class="coming-soon">
+                        Coming soon
+                    </span>
+                </div>
             {.end}
 
         </div>
@@ -56,18 +62,16 @@
                     </div>
                 </div>
             </div>
+            {.or}
+                <div class="container products-holder">
+                    <span class="coming-soon">
+                        Coming soon
+                    </span>
+                </div>
             {.end}
 
         </div>
 
     </squarespace:query>
 
-    <div class="section-heading">
-        <h4>High intensity hard candy</h4>
-    </div>
-    <div class="container products-holder">
-        <span class="coming-soon">
-            Coming soon
-        </span>
-    </div>
 </div>
