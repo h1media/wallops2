@@ -103,20 +103,43 @@
 
         </squarespace:query>
 
-        {.section collection}
-  ...
-  <squarespace:category collection="{urlId}">
-    {.if categories}
-      <div class="category-wrapper">
-        <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
-      </div>
-    {.end}
-  </squarespace:category>
-  ...
-{.end}
-
 
     </div>
+
+
+
+
+
+
+
+
+        {.section collection}
+          <squarespace:category collection="{urlId}">
+            {.if categories}
+
+
+{.repeated section categories}
+
+                <div class="section-heading">
+                    <h4>{name}</h4>
+                </div>
+
+
+{.end}
+
+            {.end}
+          </squarespace:category>
+        {.end}
+
+
+
+
+
+
+
+
+
+
     <div class="section-heading">
         <h4>High intensity hard candy</h4>
     </div>
