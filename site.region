@@ -44,7 +44,7 @@
         </div>
 
 
-        <squarespace:query collection="wallops-products" category="{categories}" limit="100">
+        <squarespace:query collection="wallops-products" category="" limit="100">
 
             {.repeated section items}
             <div class="row product">
