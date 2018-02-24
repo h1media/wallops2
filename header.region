@@ -22,19 +22,6 @@
                 <span></span>
             </div>
             <div class="responsive-menu">
-                <!--<nav>
-                    <ul>
-                        <li><a href="#">Find us</a></li>
-                        <li class="menu-item-has-children"><a href="#">Products</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Products</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </nav>-->
                 <squarespace:navigation navigationId="mainNav" template="navigation" />
             </div>
         </div>

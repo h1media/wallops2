@@ -49,6 +49,19 @@
 
         <squarespace:query collection="wallops-products" limit="100">
 
+
+
+{.section collection}
+  <squarespace:category collection="{urlId}">
+    {.if categories}
+      <div class="category-wrapper">
+        <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
+      </div>
+    {.end}
+  </squarespace:category>
+{.end}
+
+
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
