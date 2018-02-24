@@ -51,25 +51,17 @@
 
 
 
-      {.repeated section collection}
-      {.section categories}
-        <h4>
-
-
-               test{categories}
-               
-        </h4>
- {.end}
 
         <squarespace:query collection="wallops-products" category="{categories}" limit="100">
-{.section categories}
-        <h4>
-
-
-               test{categories}
-               
-        </h4>
- {.end}
+                  <squarespace:category collection="{urlId}">
+            {.if categories}
+                {.repeated section categories}
+                <div class="section-heading">
+                    <h4>{name}</h4>
+                </div>
+                {.end}
+            {.end}
+          </squarespace:category>
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
@@ -92,7 +84,6 @@
 
         </squarespace:query>
 
-      {.end}
 
     </div>
 
