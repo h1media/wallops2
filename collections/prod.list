@@ -50,8 +50,9 @@
   <squarespace:category collection="{urlId}">
     {.if categories}
       <div class="category-wrapper">
-        <span class="category">{.repeated section categories}{name}{.end}</span>
+        <span class="category">{.repeated section categories}{name}</span>
       </div>
+
           {.repeated section items}
       <article>
         <h1>{title}</h1>
@@ -59,6 +60,7 @@
       </article>
     {.or}
       <p>There are no items here.</p>
+    {.end}
     {.end}
     {.end}
 
