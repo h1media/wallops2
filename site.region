@@ -95,33 +95,7 @@
                     <h4>abc{name}</h4>
                 </div>
          {.end}
-     {.end}
- {.end}
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-        {.section collection}
-          <squarespace:category collection="{urlId}">
-            {.if categories}
-                {.repeated section categories}
-                <div class="section-heading">
-                    <h4>{name}</h4>
-                </div>
-                {.end}
-            {.end}
-          </squarespace:category>
-
-           {.repeated section items}
+                    {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
@@ -139,10 +113,19 @@
                 </div>
             </div>
             {.end}
+     {.end}
+ {.end}
 
 
 
-        {.end}
+
+    </div>
+
+
+
+
+
+
 
 
 
