@@ -52,7 +52,7 @@
 
 
 {.section collection}
-  <squarespace:category collection="{urlId}">
+  <squarespace:category>
     {.if categories}
       <div class="category-wrapper">
         <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
