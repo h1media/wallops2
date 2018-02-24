@@ -116,19 +116,35 @@
         {.section collection}
           <squarespace:category collection="{urlId}">
             {.if categories}
-
-
-{.repeated section categories}
-
+                {.repeated section categories}
                 <div class="section-heading">
                     <h4>{name}</h4>
                 </div>
-
-
-{.end}
-
+                {.end}
             {.end}
           </squarespace:category>
+
+           {.repeated section items}
+            <div class="row product">
+                <div class="col-lg-6 product-image">
+                    <img src="{customContent.mainProductImage.assetUrl}" />
+                    <span class="shadow"></span>
+                </div>
+                <div class="col-lg-6 product-desc">
+                    <h3>{title}</h3>
+                    <h4>{customContent.productSubtitle}</h4>
+                    <div class="desc">
+                        {body}
+                    </div>
+                    <div class="secondary-product-image">
+                        <img src="{customContent.secondaryProductImage.assetUrl}" />
+                    </div>
+                </div>
+            </div>
+            {.end}
+
+
+          
         {.end}
 
 
