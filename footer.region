@@ -5,7 +5,7 @@
                 <img src="http://localhost:9000/assets/logo.jpg" />
             </div>
             <div class="col-lg-9 right">
-                <div class="col-lg-12 menu-holder">
+                <div class="col-lg-12 footer-menu-holder">
                     <squarespace:navigation navigationId="secondaryNav" template="navigation" />
                 </div>
                 <div class="col-lg-12 copyright-holder">
