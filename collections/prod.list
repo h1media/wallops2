@@ -2,13 +2,7 @@
   <squarespace:category collection="{urlId}">
     {.if categories}
     <div class="section-heading first">
-        <h4>{.repeated section categories}{name}{.alternates with}, {.end}</h4>
-    </div>
-
-    {.end}
-  </squarespace:category>
-{.end}
-
+        <h4>{.repeated section categories}{name}
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
@@ -27,3 +21,10 @@
                 </div>
             </div>
             {.end}
+
+        {.end}</h4>
+    </div>
+
+    {.end}
+  </squarespace:category>
+{.end}
