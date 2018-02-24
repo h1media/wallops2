@@ -1,7 +1,7 @@
 <div class="container-fluid main-holder">
 
     <div class="container">
-        {main-body}
+        {squarespace.main-content}
     </div>
 
     <div class="section-heading first">
