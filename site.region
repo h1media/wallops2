@@ -44,7 +44,7 @@
         </div>
 
 
-        <squarespace:query collection="wallops-products" category="" limit="100">
+        <squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CHEWS" limit="100">
 
             {.repeated section items}
             <div class="row product">
@@ -53,7 +53,6 @@
                     <span class="shadow"></span>
                 </div>
                 <div class="col-lg-6 product-desc">
-                <h4>test {categories}</h4>
                     <h3>{title}</h3>
                     <h4>{customContent.productSubtitle}</h4>
                     <div class="desc">
@@ -68,18 +67,9 @@
 
         </squarespace:query>
 
+        <squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CANDY" limit="100">
 
-
-test aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-
-     {.repeated section collections}
-         {.repeated section categories}
-             <div class="section-heading">
-                    <h4>abc{name}</h4>
-                </div>
-         {.end}
-                    {.repeated section items}
+            {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
@@ -97,28 +87,10 @@ test aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                 </div>
             </div>
             {.end}
-     {.end}
 
-
-
-
+        </squarespace:query>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div class="section-heading">
         <h4>High intensity hard candy</h4>
