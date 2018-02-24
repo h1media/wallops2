@@ -57,7 +57,7 @@
     <div class="section-heading first">
         <h4>{.repeated section categories}{name}{.alternates with}, {.end}</h4>
     </div>
-                {.repeated section items}
+            {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
@@ -79,7 +79,9 @@
   </squarespace:category>
 {.end}
 
-
+{.repeated section categories}
+<h4>{name}</h4>
+{.end}
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
