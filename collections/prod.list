@@ -1,13 +1,15 @@
-{.section collection}
-  <squarespace:category collection="{urlId}">
-    {.if categories}
-    {.repeated section categories
-    <div class="section-heading first">
-        <h4>{name}</h4>
-    </div>
-    {.end}
+        {.section collection}
+          <squarespace:category collection="{urlId}">
+            {.if categories}
+                {.repeated section categories}
+                <div class="section-heading">
+                    <h4>{name}</h4>
+                </div>
+                {.end}
+            {.end}
+          </squarespace:category>
 
-            {.repeated section items}
+           {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
@@ -27,7 +29,5 @@
             {.end}
 
 
-
-    {.end}
-  </squarespace:category>
-{.end}
+          
+        {.end}
