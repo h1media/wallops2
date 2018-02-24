@@ -47,7 +47,13 @@
             </div>
         </div>
 
-        <squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CANDY" limit="100">
+
+
+
+
+        {.repeated section}
+
+        <squarespace:query collection="wallops-products" category="categoryFilter" limit="100">
 
             {.repeated section items}
             <div class="row product">
@@ -69,6 +75,8 @@
             {.end}
 
         </squarespace:query>
+
+        {.end}
 
     </div>
 
