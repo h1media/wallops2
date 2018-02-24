@@ -1,77 +1,75 @@
-    <squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CHEWS" limit="100">
+<squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CHEWS" limit="100">
 
-        <div class="container-fluid main-holder">
+    <div class="container-fluid main-holder">
 
-            <div class="section-heading first">
-                <h4>High intensity hard chews</h4>
-            </div>
-            <div class="container products-holder">
-
-            {.repeated section items}
-            <div id="{title}" class="row product">
-                <div class="col-lg-6 product-image">
-                    <img src="{customContent.mainProductImage.assetUrl}" />
-                    <span class="shadow"></span>
-                </div>
-                <div class="col-lg-6 product-desc">
-                    <h3 style="color:{customContent.productColor};"><img class="titleBeforeImage" src="{customContent.titleBeforeImage.assetUrl}" />{title}<img class="titleAfterImage" src="{customContent.titleAfterImage.assetUrl}" /></h3>
-                    <h4>{customContent.productSubtitle}</h4>
-                    <div class="desc">
-                        {body}
-                    </div>
-                    <div class="secondary-product-image">
-                        <img src="{customContent.secondaryProductImage.assetUrl}" />
-                    </div>
-                </div>
-            </div>
-            {.or}
-                <div class="container products-holder">
-                    <span class="coming-soon">
-                        Coming soon
-                    </span>
-                </div>
-            {.end}
-
+        <div class="section-heading first">
+            <h4>High intensity hard chews</h4>
         </div>
+        <div class="container products-holder">
 
-    </squarespace:query>
-
-    <squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CANDY" limit="100">
-
-        <div class="container-fluid main-holder">
-
-            <div class="section-heading first">
-                <h4>High intensity hard candy</h4>
+        {.repeated section items}
+        <div id="{title}" class="row product">
+            <div class="col-lg-6 product-image">
+                <img src="{customContent.mainProductImage.assetUrl}" />
+                <span class="shadow"></span>
             </div>
-            <div class="container products-holder">
-
-            {.repeated section items}
-            <div id="{title}" class="row product">
-                <div class="col-lg-6 product-image">
-                    <img src="{customContent.mainProductImage.assetUrl}" />
-                    <span class="shadow"></span>
+            <div class="col-lg-6 product-desc">
+                <h3 style="color:{customContent.productColor};"><img class="titleBeforeImage" src="{customContent.titleBeforeImage.assetUrl}" />{title}<img class="titleAfterImage" src="{customContent.titleAfterImage.assetUrl}" /></h3>
+                <h4>{customContent.productSubtitle}</h4>
+                <div class="desc">
+                    {body}
                 </div>
-                <div class="col-lg-6 product-desc">
-                    <h3 style="color:{customContent.productColor};"><img class="titleBeforeImage" src="{customContent.titleBeforeImage.assetUrl}" />{title}<img class="titleAfterImage" src="{customContent.titleAfterImage.assetUrl}" /></h3>
-                    <h4>{customContent.productSubtitle}</h4>
-                    <div class="desc">
-                        {body}
-                    </div>
-                    <div class="secondary-product-image">
-                        <img src="{customContent.secondaryProductImage.assetUrl}" />
-                    </div>
+                <div class="secondary-product-image">
+                    <img src="{customContent.secondaryProductImage.assetUrl}" />
                 </div>
             </div>
-            {.or}
-                <div class="container products-holder">
-                    <span class="coming-soon">
-                        Coming soon
-                    </span>
-                </div>
-            {.end}
-
         </div>
+        {.or}
+            <div class="container products-holder">
+                <span class="coming-soon">
+                    Coming soon
+                </span>
+            </div>
+        {.end}
 
-    </squarespace:query>
+    </div>
 
-</div>
+</squarespace:query>
+
+<squarespace:query collection="wallops-products" category="HIGH INTENSITY HARD CANDY" limit="100">
+
+    <div class="container-fluid main-holder">
+
+        <div class="section-heading first">
+            <h4>High intensity hard candy</h4>
+        </div>
+        <div class="container products-holder">
+
+        {.repeated section items}
+        <div id="{title}" class="row product">
+            <div class="col-lg-6 product-image">
+                <img src="{customContent.mainProductImage.assetUrl}" />
+                <span class="shadow"></span>
+            </div>
+            <div class="col-lg-6 product-desc">
+                <h3 style="color:{customContent.productColor};"><img class="titleBeforeImage" src="{customContent.titleBeforeImage.assetUrl}" />{title}<img class="titleAfterImage" src="{customContent.titleAfterImage.assetUrl}" /></h3>
+                <h4>{customContent.productSubtitle}</h4>
+                <div class="desc">
+                    {body}
+                </div>
+                <div class="secondary-product-image">
+                    <img src="{customContent.secondaryProductImage.assetUrl}" />
+                </div>
+            </div>
+        </div>
+        {.or}
+            <div class="container products-holder">
+                <span class="coming-soon">
+                    Coming soon
+                </span>
+            </div>
+        {.end}
+
+    </div>
+
+</squarespace:query>

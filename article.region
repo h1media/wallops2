@@ -1,0 +1,11 @@
+<div class="container-fluid main-holder">
+
+    <div class="section-heading first">
+        <h4>{title}</h4>
+    </div>
+    <div class="container article">
+        {squarespace.main-body}
+    </div>
+
+</div>
+
