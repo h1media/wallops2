@@ -4,6 +4,11 @@
     <div class="section-heading first">
         <h4>{.repeated section categories}{name}{.alternates with}, {.end}</h4>
     </div>
+
+    {.end}
+  </squarespace:category>
+{.end}
+
             {.repeated section items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
@@ -22,6 +27,3 @@
                 </div>
             </div>
             {.end}
-    {.end}
-  </squarespace:category>
-{.end}
