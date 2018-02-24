@@ -1,7 +1,7 @@
 <div class="container-fluid main-holder">
 
     <div class="container">
-        {squarespace}
+        {main-body}
     </div>
 
     <div class="section-heading first">
@@ -52,7 +52,7 @@
 
 
 {.section collection}
-  <squarespace:category>
+  <squarespace:category collection="{urlId}">
     {.if categories}
       <div class="category-wrapper">
         <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
