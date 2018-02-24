@@ -8,7 +8,7 @@
             <div class="container products-holder">
 
             {.repeated section items}
-            <div class="row product">
+            <div id="{title}" class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
                     <span class="shadow"></span>
@@ -46,7 +46,7 @@
             <div class="container products-holder">
 
             {.repeated section items}
-            <div class="row product">
+            <div id="{title}" class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
                     <span class="shadow"></span>
