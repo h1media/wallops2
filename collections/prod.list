@@ -2,7 +2,7 @@
   <squarespace:category collection="{urlId}">
     {.if categories}
     <div class="section-heading first">
-        <h4>{.repeated section categories}{name}{.alternates with}, {.end}</h4>
+        <h4>{.repeated section categories}{name}{.end}</h4>
     </div>
             {.repeated section items}
             <div class="row product">
@@ -50,10 +50,9 @@
   <squarespace:category collection="{urlId}">
     {.if categories}
       <div class="category-wrapper">
-        <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
+        <span class="category">{.repeated section categories}{name}{.end}</span>
       </div>
-    {.end}
-    {.repeated section items}
+          {.repeated section items}
       <article>
         <h1>{title}</h1>
         <p>{description}</p>
@@ -61,6 +60,8 @@
     {.or}
       <p>There are no items here.</p>
     {.end}
+    {.end}
+
   </squarespace:category>
 
 {.end}
