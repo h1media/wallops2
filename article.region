@@ -1,6 +1,6 @@
 <div class="container-fluid main-holder">
 
-    <div class="section-heading first article">
+    <div class="section-heading first heading-article">
         <h4>{collection.title}</h4>
     </div>
     <div class="container article">
