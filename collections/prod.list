@@ -5,7 +5,7 @@
         <h4>{.repeated section categories}{name}{.end}</h4>
     </div>
 
-            {.repeated section items}
+            {.repeated section categories items}
             <div class="row product">
                 <div class="col-lg-6 product-image">
                     <img src="{customContent.mainProductImage.assetUrl}" />
