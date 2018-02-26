@@ -33,8 +33,8 @@
 
 // smooth scroll
     $(document).ready(function(){
-        $domain = ;
-        $('a[href^=document.domain+"/#"]').on('click',function (e) {
+        var hostname = document.location.hostname;
+        $('a[href^=hostname+"/#"]').on('click',function (e) {
             e.preventDefault();
 
             var target = this.hash;
