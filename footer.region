@@ -24,6 +24,7 @@
 {squarespace-footers}
 
 <squarespace:script src="app.js" combo="true"/>
+<squarespace:script src="jquery.smooth-scroll.min.js" combo="true"/>
 
 </body>
 </html>
