@@ -34,7 +34,6 @@
 // smooth scroll
     $(document).ready(function(){
         $('a[href^="https://marcin-kurdybanowski-drfz.squarespace.com/#"]').on('click',function (e) {
-            e.preventDefault();
 
             var target = this.hash;
             $target = $(target);
