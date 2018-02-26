@@ -34,7 +34,7 @@
 // smooth scroll
     $(document).ready(function(){
         $domain = ;
-        $('a[href^="document.domain+"/#"]').on('click',function (e) {
+        $('a[href^=document.domain+"/#"]').on('click',function (e) {
             e.preventDefault();
 
             var target = this.hash;
