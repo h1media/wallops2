@@ -33,8 +33,7 @@
 
 // smooth scroll
     $(document).ready(function(){
-        var hostname = document.location.hostname;
-        $('a[href^=hostname+"/#"]').on('click',function (e) {
+        $('a[href^="https://marcin-kurdybanowski-drfz.squarespace.com/#"]').on('click',function (e) {
             e.preventDefault();
 
             var target = this.hash;
@@ -47,17 +46,5 @@
             });
         });
     });
-
-    console.log("Output;");
-    console.log(location.hostname);
-    console.log(document.domain);
-    alert(window.location.hostname)
-
-    console.log("document.URL : "+document.URL);
-    console.log("document.location.href : "+document.location.href);
-    console.log("document.location.origin : "+document.location.origin);
-    console.log("document.location.hostname : "+document.location.hostname);
-    console.log("document.location.host : "+document.location.host);
-    console.log("document.location.pathname : "+document.location.pathname);
 
 })(jQuery);
